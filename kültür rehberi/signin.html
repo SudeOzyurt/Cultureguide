@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uye Ol</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+    background-image:url('images/worldmap.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+  
+}
+
+    </style>
+</head>
+<body>
+    <h1 id="h1signin">ÜYE OL</h1>
+    <div id="top-container" style="color: white;">
+     <form action="index.html" method="post">
+        <label for="username">Kullanıcı Adı:</label>
+        <input style="border-radius: 1rem;" type="text" id="username"">
+        <br><br>
+        <label for="password">Şifre:</label>
+        <input style="border-radius: 1rem;" type="password" id="password">
+        <br><br>
+        <label for="password.again">Şifre Tekrar:</label>
+        <input style="border-radius: 1rem;" type="password.again"id="password.again">
+        <br><br>
+        <label for="birthday">Dogum Tarihi</label>
+        <input style="border-radius: 1rem;" type="date" id="birthday">
+        <br><br>
+        <label for="">Cinsiyet :</label>
+        <br>
+        <label for="male">Erkek</label>
+        <input style="border-radius: 1rem;" type="radio" name="male" id="gender">
+        <label for="female">Kadın</label>
+        <input style="border-radius: 1rem;" type="radio" name="female" id="gender">
+        <br><br>
+        <label for="email">Email</label>
+        <input style="border-radius: 1rem;" type="email" id="email">
+        <label for="">Telefon No</label>
+        <input style="border-radius: 1rem;" type="tel" id="phone" placeholder="   555 555 5555" pattern="[0-9] {3}-[0-9] {3}-[0-9]{4}">
+        <br><br>
+        <label for="city">Sehir</label>
+        <select name="" id="city">
+        <option value="Ankara">Ankara</option>
+        <option value="İstanbul">İstanbul</option>
+        <option value="Yozgat">Yozgat</option>
+        <option value="Düzce">Düzce</option>
+        </select>
+        <br><br>
+        <label  for="sartlar"> Üyelik Şartlarını Kabul Ediyorum</label>
+        <input style="border-radius: 1rem;" type="checkbox"id="sartlar">
+        <br><br>
+        <button id="button"  onclick="window.location.href='uye-ol-formu.html';">Üye Ol</button>
+        <br>
+    </form>
+    <BR></BR>
+    <br><br><br>
+    </div>
+
+    <div id="buttom-container" style="width: 100%;
+    min-height: 40px;
+    margin-top: 2px;
+    color: white;
+    padding-top: 15px;">
+   
+<footer>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br>
+    <a href="mailto:abc@gmail.com">  Bize Ulaşın</a>
+    <br>
+    &copy;  Tüm Hakları Saklıdır
+    <hr>
+</footer>
+</html>
